@@ -45,7 +45,13 @@ function respostaSelecionada(opcaoSelecionada){
     const afirmacoes = aleatorio(opcaoSelecionada.afirmacoes);
     historiaFinal += afirmacoes;
     atual++;
+    if(opcaoSelecionada.proxima !== undefined){
+        atual = opcaoSelecionaa.proxima;
+    }alce}
     mostraPergunta();
+    return;
+    {
+mostraResultado();
 }
 
 
@@ -53,14 +59,31 @@ fnctuion mostraResultado() {
     caixaPerguntas.textContent =    ´Em 2049, ${nome} ´;
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
+    caixaResultado.classList.add("mostrar");
+    botaoJogarNovamente.addEventListener("click",  jogarnovamente)
 }
+
+function jogar novamente(){
+atual = 0;
+historiafinal ="";
+caixaResultado.clasiList.remove("mostrar");
+mostraResultdo();
+
+function substituiNome(){
+    for(const pergunta of perguntas){
+        pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
+    }
+}
+
+substituiNome();
+motraReuldado
 
 function aleatorio (lista){
     const posicao = Math.floor(Math.random()* lista.length);
     return lista[posicao];
 }
 
-mostraResultado();
+c;
 
 
 

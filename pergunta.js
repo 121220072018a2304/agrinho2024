@@ -7,8 +7,9 @@ export  const perguntas = [
                             texto: "Isso é assustador!",
                             afirmacao: [
                                 "No inicio ficou com medo do que essa tecnologia pode fazer."
-                                "achou assustador pensar va velocidade na qual a tecnologia"
+                                "achou assustador pensar va velocidade na qual a tecnologia esta avançadando"
                             ]
+                            proximo: 1;
                         },
                         {
                             texto: "Isso é maravilhoso!",
@@ -16,6 +17,7 @@ export  const perguntas = [
                                 "quis saber como usar ia no deu dia a dia"
                                 "penou quw essa nova tecnologia pode ajudar em varias tarefas do seu dia a dia "
                             ]
+                            proxima: 2,
                         }
                     ]
             },
@@ -29,6 +31,7 @@ export  const perguntas = [
          texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
             "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema."
         ]
+        proxima: 7
     },
     {
         enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?
@@ -37,6 +40,7 @@ export  const perguntas = [
             "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
             "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores."
         ]
+        proxima: 7
     },
     {
         enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
